@@ -62,6 +62,6 @@
 
 # file read by line by line
 
-with open("C:\Users\Asus\OneDrive\Desktop\python\ newfile.txt","r") as file:
-    for line in file:
-        print(line.strip())
+# with open("C:\Users\Asus\OneDrive\Desktop\python\ newfile.txt","r") as file:
+#     for line in file:
+#         print(line.strip())

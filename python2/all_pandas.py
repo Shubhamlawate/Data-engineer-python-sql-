@@ -38,3 +38,38 @@
 # df = pd. DataFrame(Data)
 # print(df.tail())
 # print(df.head())
+
+import pandas as pd
+
+Data ={
+    "name":["shubham","karan","rashad"],
+    "age":[10,22,30],
+    "city":["mumbia","vasia","bhewande"]
+}
+
+df =pd.DataFrame(Data)
+# df["age"]=df["age"]+2  #update value
+# df.loc[2,"city"]= "waet vasai"
+# df.iloc[0,2]="pandherpur"
+# print(df)
+
+#creat file csv
+df.to_csv("friend.csv",index=False)
+print("creat file csv succese ful")
+
+
+# print(df.shape)
+# print(df.size)
+# print(df.columns)
+# print(df.index)
+# print(df.dtypes)
+
+#read file 
+
+# import pandas as pd
+
+# df = pd.read_csv(r"C:\Users\Asus\OneDrive\Desktop\python\Data-engineer-python-sql-\python2\sample-simple.csv")
+# # df =open(r"C:\Users\Asus\OneDrive\Desktop\python\Data-engineer-python-sql-\python2\sample-simple.csv","r")
+# # print(df.read())
+# # df.close()
+# print(df)
